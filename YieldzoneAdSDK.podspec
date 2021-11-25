@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.frameworks = ["AdSupport", "AVFoundation", "CoreTelephony", "CoreLocation", "Foundation", "SystemConfiguration", "Security", "UIKit", "WebKit", "QuartzCore", "CoreGraphics"]
   s.requires_arc = true
   s.xcconfig = {"ENABLE_BITCODE"=>"No", "OTHER_LDFLAGS"=>"-ObjC"}
-  s.source = { :path => '.' }
+  s.source = { :git => "https://github.com/YingYou/YieldzoneAdSDK.git", :tag => s.version }
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'YieldzoneAdSDK.framework'
