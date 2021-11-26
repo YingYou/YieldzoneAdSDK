@@ -1,4 +1,4 @@
-# SparkXAdSDK
+# YieldzoneAdSDK
 SDK for developer
 
 
