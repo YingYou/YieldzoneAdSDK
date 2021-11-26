@@ -1,5 +1,5 @@
-# YieldzoneAdSDK
-SDK for developer
+# iOS YieldzoneAdSDK
+iOS SDK for developer
 
 
 ## Requirements
